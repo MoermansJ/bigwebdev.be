@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="C:\Users\jonne\Desktop\Portfolio V2\styles.css"
+    />
+    <!-- Action On Scroll stylesheet -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Responsive Navbar JS -->
+    <script src="C:\Users\jonne\Desktop\Portfolio V2\script.js" defer></script>
+    <!-- Action On Scroll script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Portfolio JM V2</title>
+  </head>
+  <body>
+    <div class="titlebox">
+      <div class="title">Jonathan Moermans</div>
+      <div class="subtitle">Web Developer</div>
+    </div>
+
+    <!-- hamburger lines -->
+    <nav class="navbar">
+      <a href="#" class="toggle-button">
+        <span class="bar" id="buntop"></span>
+        <span class="bar" id="lettuce"></span>
+        <span class="bar" id="tomato"></span>
+        <span class="bar" id="meat"></span>
+        <span class="bar" id="bunbottom"></span>
+      </a>
+
+      <!-- navbar tekst -->
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Downloads</a></li>
+          <li><a href="#">Links</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- navbar icons -->
+    <div class="iconbox">
+      <a href="#">
+        <span class="iconhome" data-tooltip="Home">
+          <img src="C:\Users\jonne\Desktop\Portfolio V2\img\home.svg" />
+        </span>
+      </a>
+      <a href="#"
+        ><img src="C:\Users\jonne\Desktop\Portfolio V2\img\download.svg"
+      /></a>
+      <a href="#"
+        ><img src="C:\Users\jonne\Desktop\Portfolio V2\img\link.svg"
+      /></a>
+      <a href="#"
+        ><img src="C:\Users\jonne\Desktop\Portfolio V2\img\mail.svg"
+      /></a>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="projectdisplaybox">
+      <!--hoe data-aos="fade-up" naar styles.css krijgen? + fade durations automatisch krijgen-->
+      <div class="projectdisplay" data-aos="fade-up" data-aos-duration="500">
+        alfa
+      </div>
+      <div class="projectdisplay" data-aos="fade-up" data-aos-duration="600">
+        bravo
+      </div>
+      <div class="projectdisplay" data-aos="fade-up" data-aos-duration="750">
+        charlie
+      </div>
+      <div class="projectdisplay" data-aos="fade-up" data-aos-duration="900">
+        delta
+      </div>
+      <div class="projectdisplay" data-aos="fade-up" data-aos-duration="950">
+        echo
+      </div>
+      <div class="projectdisplay" data-aos="fade-up" data-aos-duration="1000">
+        foxtrot
+      </div>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
