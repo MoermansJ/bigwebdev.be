@@ -1,0 +1,12 @@
+.homeSlider {
+  width: 200px;
+  color: rgb(255, 255, 255, 0.85);
+}
+
+.homeSlider__slide {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  text-indent: 2px;
+  text-align: center;
+}
