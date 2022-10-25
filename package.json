@@ -2,7 +2,7 @@
   "name": "BigWebDev.be",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://MoermansJ.github.io/bigwebdev.be",
+  "homepage": "https://bigwebdev.be",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.28",
     "@testing-library/jest-dom": "^5.16.5",
