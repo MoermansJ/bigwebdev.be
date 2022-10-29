@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Home.css";
 import HomeSlider from "./HomeSlider";
 import { Link } from "react-scroll";
