@@ -157,7 +157,6 @@ ul {
   .contact {
     flex-direction: column;
     height: auto;
-    min-width: 700px;
   }
 
   .contact__leftside {

@@ -1,21 +1,19 @@
 .projects {
-  height: 620px;
-  width: 100vw;
+  height: auto;
+  width: 80vw;
   margin: auto;
+  margin-bottom: 40px;
 }
 
 .projects__flex {
   margin: auto;
-  width: 80%;
+  width: 100%;
   display: flex;
 }
 
 .projects__container {
   display: flex;
   height: 560px;
-  max-width: 843px;
-  min-width: 598px;
-  padding-right: 220px;
 }
 
 .projectsItem {
@@ -45,19 +43,11 @@
   display: none;
 }
 
-.projects__pageTitle {
-  width: auto;
-  opacity: 0.4;
-  margin: auto;
+.projects__title {
   font-size: xx-large;
-  scale: 2;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 750px) {
-  .projects__pageTitle {
-    display: none;
-  }
 }

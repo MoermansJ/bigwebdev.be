@@ -16,17 +16,11 @@ function App() {
     //TODO: fix data-theme
     <ContextProvider.Provider value={value} data-theme={theme}>
       <div className="app">
-        {/* <section> */}
         <Navbar />
         <Home />
-        {/* </section>
-        <section> */}
         <Skills />
-
         <Projects />
-
         <Contact />
-        {/* </section> */}
       </div>
     </ContextProvider.Provider>
   );
