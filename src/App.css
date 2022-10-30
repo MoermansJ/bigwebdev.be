@@ -1,0 +1,29 @@
+/* * {
+  background: var(--background);
+  color: var(--color) !important;
+}
+
+[data-theme="dark"] {
+  --background: rgb(29, 29, 29);
+  --color: white;
+}
+
+[data-theme="light"] {
+  --background: rgb(255, 255, 255);
+  --color: black;
+} */
+
+/* section {
+  scroll-snap-align: center;
+  scroll-snap-type: y proximity;
+}
+
+html {
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+} */
+
+.app {
+  background: rgb(29, 29, 29);
+  color: white;
+}
